@@ -36,7 +36,6 @@
   right: 0;
   margin: 0 auto;
   background-color: rgba(180,44,28,255);
-  border: thin solid blue;
 }
 
 .ojo {
@@ -118,4 +117,22 @@
 .pie-d {
   position: absolute;
   right: -2em;
+}
+
+.cuerpo {
+  position: relative;
+  width: 478px;
+  height: 230px;
+  top: 150px;
+  background-color:rgba(180,44,28,255);
+  border: thin solid red;
+
+
+}
+
+.nariz {
+
+
+
+  
 }
