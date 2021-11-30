@@ -13,20 +13,19 @@
 
   background-color: white;
   border: thin solid gray;
-
   z-index: -3;
 }
 
 .muneco {
-  /* centramos verticalmente la patata */
   position: relative;
 
   margin: 0 auto;
-  /* fin centrar verticalmente la patata */
-  border: thin solid red;
+
   height: 30em;
   width: 30em;
-
+  top: 10em;
+border-top-left-radius: 60%;
+border-top-right-radius: 60%;
 }
 
 .ojos {
@@ -34,8 +33,14 @@
   height: 150px;
   left: 0;
   right: 0;
+  top: 20px;
   margin: 0 auto;
   background-color: rgba(180,44,28,255);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:
+  border-bottom-left-radius:
+
 }
 
 .ojo {
@@ -45,6 +50,7 @@
   background-color: black;
   border: thin solid black;
   border-radius: 50%;
+
 
 }
 
@@ -94,7 +100,7 @@
   right: 0;
   margin: 0 auto;
 
-  bottom: 0;
+  top: 900px;
   background-color: rgba(180,44,28,255);
   border: thin solid blue;
 
@@ -103,7 +109,7 @@
 
 .pie {
   position: relative;
-  width: 200px;
+  width: 100px;
   height: 100px;
   background-color: black;
   border: thin solid red;
@@ -112,6 +118,7 @@
 .pie-i {
   position: absolute;
   left: -2em;
+  z-index: 5;
 }
 
 .pie-d {
@@ -119,20 +126,88 @@
   right: -2em;
 }
 
-.cuerpo {
-  position: relative;
+.nariz {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 478px;
   height: 230px;
-  top: 150px;
+  top: 170px;
   background-color:rgba(180,44,28,255);
   border: thin solid red;
-
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
 
 }
 
-.nariz {
+.triangulo {
+  position: relative;
+   transform: rotate(27deg);
+  width: 5em;
+  margin: 0 auto;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color:rgba(180,44,28,255);
+
+}
+
+.cuello {
+  position: absolute;
+  height: 30px;
+  left: 0;
+  right: 0;
+  margin:  auto;
+  top: 400px;
+  background-color: rgba(180,44,28,255);
+
+  width: 250px;
+
+}
+
+.pecho {
+  position: absolute;
+  height: 300px;
+  left: 0;
+  right: 0;
+  margin:  auto;
+  top: 430px;
+  background-color: rgba(180,44,28,255);
+  border: thin solid red;
+  width: 400px;
+
+}
 
 
+.hombroiz {
 
-  
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 30;
+  margin:  auto;
+  top: 430px;
+  background-color: black;
+  border: thin solid black;
+  width: 100px;
+
+}
+
+.hombrodr {
+
+  position: absolute;
+  height: 100px;
+  left: 23.5em;
+  right: 0em;
+  margin:  auto;
+  top: 0;
+  bottom: 0em;
+  background-color: black;
+  border: thin solid black;
+  width: 100px;
+
+
 }
