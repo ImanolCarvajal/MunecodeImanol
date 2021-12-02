@@ -100,7 +100,7 @@ border-top-right-radius: 60%;
   right: 0;
   margin: 0 auto;
 
-  top: 900px;
+  top: 1400px;
   background-color: rgba(180,44,28,255);
   border: thin solid blue;
 
@@ -170,7 +170,7 @@ border-top-right-radius: 60%;
 
 .pecho {
   position: absolute;
-  height: 300px;
+  height: 400px;
   left: 0;
   right: 0;
   margin:  auto;
@@ -193,6 +193,10 @@ border-top-right-radius: 60%;
   background-color: black;
   border: thin solid black;
   width: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius: 20px;
 
 }
 
@@ -208,6 +212,103 @@ border-top-right-radius: 60%;
   background-color: black;
   border: thin solid black;
   width: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius: 20px;
 
+}
+
+.brazodr {
+
+  position: absolute;
+width: 300px;
+height: 75px;
+background-color: black;
+top: 37.5em;
+right:-13em;
+border-top-left-radius: 700px;
+border-top-right-radius: 700px;
+border-bottom-right-radius: 700px;
+border-bottom-left-radius: 700px;
+background-color: rgba(180,44,28,255);
+transform:rotate(40deg);
+}
+
+
+.brazoiz {
+
+  position: absolute;
+width: 300px;
+height: 75px;
+background-color: black;
+top: 37.5em;
+left:-13em;
+border-top-left-radius: 700px;
+border-top-right-radius: 700px;
+border-bottom-right-radius: 700px;
+border-bottom-left-radius: 700px;
+background-color: rgba(180,44,28,255);
+transform:rotate(140deg);
+}
+
+
+
+
+.pantalon {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin:  auto;
+  top: 820px;
+  background-color: rgba(180,44,28,255);
+  border: thin solid red;
+  width: 400px;
+}
+
+  .bolsillo1 {
+    position: absolute;
+    height: 100px;
+    left: 10;
+    right: 10;
+    margin:  auto;
+    top: 820px;
+    background-color: black;
+    border: thin solid black;
+    width: 100px;
+
+}
+
+
+
+
+.piernas {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  top: 1400px;
+  background-color: rgba(180,44,28,255);
+  border: thin solid blue;
+
+  z-index: -1;
+}
+
+
+
+.piernadr {
+
+  position: absolute;
+  height: 440px;
+  left: 170;
+  right: 0;
+  margin:  auto;
+  top: 830px;
+  background-color: rgba(180,44,28,255);
+  border: thin solid red;
+  width: 100px;
 
 }
