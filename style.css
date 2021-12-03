@@ -40,6 +40,7 @@ border-top-right-radius: 60%;
   border-top-right-radius: 20px;
   border-bottom-right-radius:
   border-bottom-left-radius:
+animation: example 5s linear 2s infinite alternate;
 
 }
 
@@ -69,11 +70,6 @@ border-top-right-radius: 60%;
   height: 90px;
 }
 
-.ojo-lt {
-  position: absolute;
-  left: 1em;
-  top: 0;
-}
 
 .ojo-lb {
   position: absolute;
@@ -81,50 +77,15 @@ border-top-right-radius: 60%;
   bottom: 0;
 }
 
-.ojo-rt {
-  position: absolute;
-  right: 1em;
-  top: 0;
-}
+
 
 .ojo-rb {
   position: absolute;
   right: 1em;
   bottom: 0;
+  border-radius: 0 100% / 0 50%;
 }
 
-.pies {
-  position: absolute;
-  height: 100px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-
-  top: 1400px;
-  background-color: rgba(180,44,28,255);
-  border: thin solid blue;
-
-  z-index: -1;
-}
-
-.pie {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  border: thin solid red;
-}
-
-.pie-i {
-  position: absolute;
-  left: -2em;
-  z-index: 5;
-}
-
-.pie-d {
-  position: absolute;
-  right: -2em;
-}
 
 .nariz {
   position: absolute;
@@ -187,7 +148,7 @@ border-top-right-radius: 60%;
   position: absolute;
   height: 100px;
   left: 0;
-  right: 30;
+  right: 40;
   margin:  auto;
   top: 430px;
   background-color: black;
@@ -270,8 +231,8 @@ transform:rotate(140deg);
   .bolsillo1 {
     position: absolute;
     height: 100px;
-    left: 10;
-    right: 10;
+    left: -301px;
+    right: 0px;
     margin:  auto;
     top: 820px;
     background-color: black;
@@ -282,20 +243,21 @@ transform:rotate(140deg);
 
 
 
-
-.piernas {
+.bolsillo2 {
   position: absolute;
   height: 100px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  left: 0px;
+  right: -300px;
+  margin:  auto;
+  top: 820px;
+  background-color: black;
+  border: thin solid black;
+  width: 100px;
 
-  top: 1400px;
-  background-color: rgba(180,44,28,255);
-  border: thin solid blue;
-
-  z-index: -1;
 }
+
+
+
 
 
 
@@ -303,12 +265,83 @@ transform:rotate(140deg);
 
   position: absolute;
   height: 440px;
-  left: 170;
+  left: 130px;
   right: 0;
   margin:  auto;
-  top: 830px;
+  top: 909px;
   background-color: rgba(180,44,28,255);
   border: thin solid red;
   width: 100px;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  transform:rotate(-2deg);
+  }
 
-}
+  .piernaiz {
+
+    position: absolute;
+    height: 440px;
+    left: -160px;
+    right: 0;
+    margin:  auto;
+    top: 905px;
+    background-color: rgba(180,44,28,255);
+    border: thin solid red;
+    width: 100px;
+    border-top-left-radius: 700px;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 700px;
+    border-bottom-left-radius: 700px;
+    transform:rotate(6deg);
+    }
+
+
+    .zapato1 {
+      position: absolute;
+      height: 210px;
+      left: 0px;
+      right: -240px;
+      margin:  auto;
+      top: 1250px;
+      background-color: rgba(180,44,28,255);
+      border: thin solid red;
+      width: 100px;
+      border-top-left-radius: 700px;
+      border-top-right-radius: 700px;
+      border-bottom-right-radius: 700px;
+      border-bottom-left-radius: 700px;
+      transform:rotate(640deg);
+      }
+
+      .zapato2 {
+        position: absolute;
+        height: 210px;
+        left: -240px;
+        right: 0px;
+        margin:  auto;
+        top: 1250px;
+        background-color: rgba(180,44,28,255);
+        border: thin solid red;
+        width: 100px;
+        border-top-left-radius: 700px;
+        border-top-right-radius: 700px;
+        border-bottom-right-radius: 700px;
+        border-bottom-left-radius: 700px;
+        transform:rotate(624deg);
+        }
+
+
+        .cinturon {
+          position: absolute;
+          height: 50px;
+          left: 0px;
+          right: -0px;
+          margin:  auto;
+          top: 730px;
+          background-color: #79472e;
+          border: thin solid black;
+          width: 400px;
+
+        }
